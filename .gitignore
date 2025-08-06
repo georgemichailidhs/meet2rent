@@ -1,0 +1,8 @@
+
+# Exclude large binary files
+node_modules/@next/swc-*/*.node
+node_modules/**/*.node
+node_modules/**/lib*.so*
+node_modules/**/*.dylib
+node_modules/**/*.dll
+

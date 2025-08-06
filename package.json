@@ -1,0 +1,79 @@
+{
+  "name": "meet2rent",
+  "version": "1.0.0",
+  "description": "Digital platform for long-term property rentals in Greece",
+  "private": true,
+  "author": "Meet2Rent Team",
+  "homepage": "https://meet2rent.app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/georgemichailidhs/meet2rent.git"
+  },
+  "keywords": [
+    "rental",
+    "greece",
+    "property",
+    "digital-platform",
+    "nextjs",
+    "typescript"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint --ignore-during-builds",
+    "type-check": "tsc --noEmit --skipLibCheck",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:studio": "drizzle-kit studio"
+  },
+  "dependencies": {
+    "next": "15.1.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "next-auth": "^4.24.8",
+    "drizzle-orm": "^0.44.4",
+    "postgres": "^3.4.7",
+    "@auth/drizzle-adapter": "^0.7.0",
+    "stripe": "^14.12.0",
+    "lucide-react": "^0.263.1",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "tailwind-merge": "^2.2.0",
+    "@radix-ui/react-slot": "^1.0.2",
+    "@radix-ui/react-separator": "^1.0.3",
+    "@radix-ui/react-dialog": "^1.0.5",
+    "@radix-ui/react-dropdown-menu": "^2.0.6",
+    "@radix-ui/react-label": "^2.0.2",
+    "@radix-ui/react-select": "^2.0.0",
+    "@radix-ui/react-toast": "^1.1.5",
+    "@radix-ui/react-tooltip": "^1.0.7",
+    "@radix-ui/react-avatar": "^1.0.4",
+    "@radix-ui/react-checkbox": "^1.0.4",
+    "@radix-ui/react-tabs": "^1.0.4",
+    "react-hook-form": "^7.48.2",
+    "@hookform/resolvers": "^3.3.2",
+    "zod": "^3.22.4",
+    "date-fns": "^3.0.6",
+    "cloudinary": "^1.41.1",
+    "nodemailer": "^6.9.8",
+    "bcryptjs": "^2.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/nodemailer": "^6.4.14",
+    "eslint": "^8",
+    "eslint-config-next": "15.1.3",
+    "typescript": "^5",
+    "tailwindcss": "^3.4.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0",
+    "drizzle-kit": "^0.31.4"
+  }
+}
